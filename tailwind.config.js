@@ -12,7 +12,7 @@ module.exports = {
       },
 
       fontFamily: {
-        primary: ["'Big Shoulders Display'", 'cursive'],
+        primary: ["'Big Shoulders Display'", 'sans-serif'],
         secondary: ["'Lexend Deca'", 'sans-serif'],
       },
     },
