@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -18,7 +18,109 @@
     <title>FAQ accordion card</title>
   </head>
 
-  <body>
+  <body
+    class="p-4 bg-gradient-to-br from-soft-blue to-soft-violet text-primary-light font-primary pt-[8.75rem] bg-no-repeat min-h-screen"
+  >
+    <main class="flex justify-center mt-32 md:mt-0">
+      <!-- faq card -->
+      <div
+        class="rounded-2xl bg-white text-primary-darker shadow-2xl p-8 w-full md:max-w-4xl"
+      >
+        <div class="grid md:grid-cols-2">
+          <!-- image for phone -->
+          <div
+            class="-mt-[160px] mobile-image-shadow place-self-center md:mt-0 md:-ml-48 relative"
+          >
+            <img
+              class="w-[26rem]"
+              src="assets/illustration-woman-online-mobile.svg"
+              width="200"
+              height="200"
+              alt="illustration-woman-online-mobile"
+            />
+          </div>
+
+          <!-- card content -->
+          <section>
+            <!-- card title -->
+            <div class="mt-16 md:mt-8">
+              <h1 class="text-3xl font-bold text-center md:text-left">FAQ</h1>
+            </div>
+
+            <!-- questions list -->
+            <div class="text-primary-base mt-6">
+              <details class="">
+                <summary>How many team members can I invite?</summary>
+
+                <div class="mt-2">
+                  <p class="text-sm">
+                    You can invite up to 2 additional users on the Free plan.
+                    There is no limit on team members for the Premium plan.
+                  </p>
+                </div>
+              </details>
+
+              <details>
+                <summary>How many team members can I invite?</summary>
+
+                <div class="mt-2">
+                  <p class="text-sm">
+                    You can invite up to 2 additional users on the Free plan.
+                    There is no limit on team members for the Premium plan.
+                  </p>
+                </div>
+              </details>
+
+              <details>
+                <summary>What is the maximum file upload size?</summary>
+
+                <div class="mt-2">
+                  <p class="text-sm">
+                    No more than 2GB. All files in your account must fit your
+                    allotted storage space.
+                  </p>
+                </div>
+              </details>
+
+              <details>
+                <summary>How do I reset my password?</summary>
+
+                <div class="mt-2">
+                  <p class="text-sm">
+                    Click “Forgot password” from the login page or “Change
+                    password” from your profile page. A reset link will be
+                    emailed to you.
+                  </p>
+                </div>
+              </details>
+
+              <details>
+                <summary>Can I cancel my subscription?</summary>
+
+                <div class="mt-2">
+                  <p class="text-sm">
+                    Can I cancel my subscription? Yes! Send us a message and
+                    we’ll process your request no questions asked.
+                  </p>
+                </div>
+              </details>
+
+              <details>
+                <summary>Do you provide additional support?</summary>
+
+                <div class="mt-2">
+                  <p class="text-sm">
+                    Chat and email support is available 24/7. Phone lines are
+                    open during normal business hours.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
     <!-- footer -->
     <footer class="py-6 text-center">
       Challenge by
